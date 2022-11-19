@@ -1,0 +1,82 @@
+@media (max-width: 1200px) {
+  .promo_header {
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+  .promo_subheader {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 992px) {
+  .header_logo {
+    width: 210px;
+  }
+
+  .promo_wrapper {
+    margin-top: 80px;
+  }
+
+  .promo_header {
+    font-size: 34px;
+    line-height: 34px;
+  }
+
+  .promo_subheader {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .button_main {
+    width: 280px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+  .promo_link {
+    font-size: 14px;
+  }
+
+  .advantage_header {
+    font-size: 26px;
+    line-height: 26px;
+  }
+
+  .advantage_item {
+    max-width: 220px;
+  }
+
+  .advantage_descr br {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .promo .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .promo .header_logo {
+    flex-direction: column;
+    width: 100%;
+    flex-basis: 100%;
+  }
+  .promo .header_logo img {
+    width: 100%;
+    margin-bottom: 30px;
+    flex-basis: 100%;
+  }
+  .promo .header_official {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+  }
+  .promo .header_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+  }
+}
